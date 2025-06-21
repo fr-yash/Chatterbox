@@ -5,11 +5,12 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js",
+    "start": "node ./src/index.js",
     "build": "echo 'No build step required for Node.js'",
     "seed": "node src/seeds/user.seeds.js",
     "seed:clear": "node src/seeds/clear-and-seed.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-deploy": "node test-deploy.js"
   },
   "keywords": ["cobuilder", "api", "backend", "chat", "collaboration", "socket.io"],
   "author": "",
