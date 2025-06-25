@@ -12,7 +12,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "test-deploy": "node test-deploy.js"
   },
-  "keywords": ["cobuilder", "api", "backend", "chat", "collaboration", "socket.io"],
+  "keywords": [
+    "cobuilder",
+    "api",
+    "backend",
+    "chat",
+    "collaboration",
+    "socket.io"
+  ],
   "author": "",
   "license": "ISC",
   "type": "module",
